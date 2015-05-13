@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="alternate" type="application/json+oembed"
+          href="http://servercooties.com/oembed?url=http%3A%2F%2Fservercooties.com&format=json"
+          title="OEmbed for ServerCooties.com" />
+
+    <title>Is it just me or server cooties?</title>
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+    <!-- Custom styles -->
+    <link type="text/css" rel="stylesheet" media="screen" href="/styles.css">
+
+    <!-- jQuery 1.11.2 (for compatibility with IE < 9) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+    <!-- Moment (required for DiscoRound) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.1/moment.min.js"></script>
+
+    <!-- Bootstrap JS-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+    <!-- Custom scripts -->
+    <script type="text/javascript" src="/scripts.js"></script>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 header-image">
+                <img id="trwtfimg" src="/static/images/trwtf.png">
+            </div>
+        </div>
+
+    </div>
+
+    <nav class="navbar headerbar" id="main-title">
+        <div id="header-image-wrapper" data-template="headerbar">
+            
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 pad-top">
+                <strong><span class="glyphicon glyphicon-education"></span>&nbsp;Discodefinition of the moment:</strong>
+
+                <blockquote>
+                    
+                    <div class="quote-sidebar">
+                        
+                        <img src="{{avatar}}"></img>
+                        
+                    </div>
+                    
+                    <div class="quote">
+                        <strong><a href="http://what.thedailywtf.com/users/{{author}}">{{author}}</a></strong>
+                        <br><br>
+                        {{{body}}}
+                        <br><br>
+                        
+                    </div>
+                    <div class="clearfix"></div>
+                    <footer>
+                        <cite><a href="{{url}}" target="_blank">Discop&aelig;dia</a>, {{author}} {{name}} {{authorTitle}}</cite>
+                    </footer>
+                </blockquote>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

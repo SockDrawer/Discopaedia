@@ -1,0 +1,17 @@
+{
+  "name": "discopaedia",
+  "version": "0.0.1",
+  "description": "A site to index discodefinitions",
+  "main": "server.js",
+  "repository": "https://github.com/SockDrawer/Discopaedia",
+  "author": "SockDrawer",
+  "dependencies": {
+    "async": "^0.9.0",
+    "cssmin": "^0.4.3",
+    "js-yaml": "^3.2.7",
+    "jsmin": "^1.0.1",
+    "mustache": "^2.0.0",
+    "request": "^2.55.0"
+  },
+  "optionalDependencies": {}
+}
