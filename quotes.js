@@ -127,7 +127,7 @@ function getPosts(id, complete) {
                             authorTitle: post.user_title
                         };
                     }));
-                    setTimeout(next, 10*1000);
+                    setTimeout(next, 10 * 1000);
                 });
         }, function () {
             complete(results);
