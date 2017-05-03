@@ -6,7 +6,7 @@
   "repository": "https://github.com/SockDrawer/Discopaedia",
   "author": "SockDrawer",
   "dependencies": {
-    "async": "^0.9.0",
+    "async": "^2.4.0",
     "cssmin": "^0.4.3",
     "js-yaml": "^3.2.7",
     "jsmin": "^1.0.1",
